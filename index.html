@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Kafei — Privacy Policy</title>
+<style>
+  :root {
+    --ink: #141414;
+    --ink-muted: rgba(20,20,20,0.62);
+    --ink-faint: rgba(20,20,20,0.45);
+    --cream: #F7F6F2;
+    --blue: #1C9FE0;
+    --rule: rgba(20,20,20,0.12);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #F2F1EC;
+      --ink-muted: rgba(242,241,236,0.68);
+      --ink-faint: rgba(242,241,236,0.5);
+      --cream: #17161A;
+      --rule: rgba(242,241,236,0.14);
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--cream);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.6;
+  }
+  main {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 64px 24px 96px;
+  }
+  .eyebrow {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--blue);
+    margin: 0 0 8px;
+  }
+  h1 {
+    font-size: 32px;
+    margin: 0 0 6px;
+    letter-spacing: -0.01em;
+  }
+  .updated {
+    font-size: 13px;
+    color: var(--ink-faint);
+    margin: 0 0 40px;
+  }
+  h2 {
+    font-size: 18px;
+    margin: 40px 0 12px;
+    padding-top: 24px;
+    border-top: 1px solid var(--rule);
+  }
+  h2:first-of-type { border-top: none; padding-top: 0; margin-top: 32px; }
+  p { margin: 0 0 14px; color: var(--ink-muted); font-size: 15px; }
+  strong { color: var(--ink); }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0;
+    font-size: 14px;
+  }
+  th, td {
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--rule);
+    color: var(--ink-muted);
+    vertical-align: top;
+  }
+  th { color: var(--ink); font-weight: 600; }
+  a { color: var(--blue); }
+  .table-wrap { overflow-x: auto; }
+</style>
+</head>
+<body>
+<main>
+  <p class="eyebrow">Kafei</p>
+  <h1>Privacy Policy</h1>
+  <p class="updated">Last updated: August 6, 2026</p>
+
+  <p>Kafei ("the app," "we," "us") is a personal coffee-tracking diary. This policy explains what information the app collects, why, and how it's handled.</p>
+
+  <h2>Information We Collect</h2>
+  <p><strong>Account information.</strong> When you create an account, we collect your email address and password. Your password is never stored in plain text or accessible to us — it's handled entirely by our authentication provider (Supabase).</p>
+  <p><strong>Content you add.</strong> The drinks, cafes, ratings, notes, and photos you log are stored so the app can show them back to you. This includes drink details (name, size, price, caffeine estimate, rating, notes, date), cafe details (name, address, location), and photos you attach to a drink or a cafe.</p>
+  <p><strong>Location.</strong> If you grant location permission, we use your device's location to center the map view and help you find nearby cafes. Location is not stored or shared beyond that purpose.</p>
+  <p><strong>Photo library access.</strong> The app requests access to your camera and photo library only when you choose to attach a photo to a drink, or save a generated share card image. We don't access your photo library at any other time.</p>
+
+  <h2>How Information Is Used</h2>
+  <p>We use your information solely to provide the app's core functionality: keeping your coffee log, showing your stats and history, and letting you search for and save cafes. We do not sell your data, and we do not use it for advertising.</p>
+
+  <h2>Third-Party Services</h2>
+  <p>Kafei relies on a small number of service providers to function:</p>
+  <div class="table-wrap">
+  <table>
+    <tr><th>Service</th><th>Purpose</th><th>What it sees</th></tr>
+    <tr><td>Supabase</td><td>Authentication, database, and photo storage</td><td>Your email, account data, and content you save</td></tr>
+    <tr><td>Google Places API</td><td>Cafe search</td><td>Search queries you make while looking for a cafe</td></tr>
+    <tr><td>Resend</td><td>Sending account emails (confirmation, password reset)</td><td>Your email address</td></tr>
+    <tr><td>remove.bg</td><td>Background removal on cup photos (rare fallback only — most processing happens on-device)</td><td>A photo, only when the on-device method is unavailable</td></tr>
+  </table>
+  </div>
+  <p>We do not use analytics, advertising, or tracking SDKs of any kind. No data from Kafei is sold or shared with third parties for marketing purposes.</p>
+
+  <h2>Data Retention and Deletion</h2>
+  <p>Your data is retained for as long as your account exists. You can permanently delete your account and all associated data (drinks, cafes, photos) at any time from Settings → Delete Account. This action is immediate and cannot be undone.</p>
+
+  <h2>Children's Privacy</h2>
+  <p>Kafei is not directed at children under 13, and we do not knowingly collect information from children under 13.</p>
+
+  <h2>Changes to This Policy</h2>
+  <p>If this policy changes, we'll update the "Last updated" date above. Continued use of the app after a change constitutes acceptance of the updated policy.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy or your data can be sent to <a href="mailto:yiencl3@gmail.com">yiencl3@gmail.com</a>.</p>
+</main>
+</body>
+</html>
